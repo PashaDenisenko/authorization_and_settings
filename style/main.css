@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../image/carbon_fibre.png");
+}
+
+#authorization, #registration, #forgot_data {
+    width: 400px;
+    margin: 30px auto;
+    height: 0px;
+    overflow: hidden;
+}
+
+#change {
+    width: 400px;
+    margin: 30px auto;
+}
+
+input, button, #exit {
+    display: block;
+    width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    border: none;
+}
+
+#exit {
+    background-color: royalblue;
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background-color: royalblue;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+}
+
+#change {
+    width: 550px;
+}
+
+#change input, #change button {
+    display: inline;
+}
+
+.button {
+    margin-left: 35px;
+}
